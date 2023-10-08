@@ -14,13 +14,16 @@ ul, ol {
 a {
     text-decoration: none;
 }
+.contacts {
+    font-style: normal
+}
 .logo{
     text-transform: uppercase;
     font-family: "Raleway", sans-serif;
     color: #4D5AE5;
     font-size: 18px;
     font-weight: 700;
-    line-height: 21px;
+    line-height: 1.17;
     letter-spacing: 0.03em;
     text-align: left;
     }
@@ -45,6 +48,9 @@ a {
 .page-nav:focus {
      color: #404BBF;        
 }
+.contacts {
+    font-style: normal
+}
 .page-contacts {
     color: #434455;
     font-size: 16px;
@@ -58,9 +64,10 @@ a {
     color: #404BBF;
 }
 .title {
+        color: #ffffff;
         font-size: 56px;
         font-weight: 700;
-        line-height: 60px;
+        line-height: 1.07;
         letter-spacing: 0.02em;
         text-align: center;
 }
@@ -79,17 +86,22 @@ a {
         padding: 16px, 32px, 16px, 32px;
         border-radius: 4px; 
         gap: 10px;
+        cursor: pointer;
 }
 .but:hover,
 .but:focus {
     background-color: #404BBF;
 }
 .section-title {
+        color: #2e2f42;
         font-size: 36px;
         font-weight: 700;
         line-height: 40px;
         letter-spacing: 0.02em;
         text-align: center;
+}
+.section-one {
+    background-color: #2e2f42;
 }
 .category {
         font-size: 20px;

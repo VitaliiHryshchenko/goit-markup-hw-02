@@ -58,13 +58,6 @@ a {
 .page-contacts:focus {
     color: #404BBF;
 }
-.title {
-        color: #ffffff;
-        font-size: 56px;
-        font-weight: 700;
-        line-height: 1.07;
-        letter-spacing: 0.02em;
-}
 .but {
         color: #ffffff;
         background-color: #4D5AE5;
@@ -78,15 +71,16 @@ a {
 .but:focus {
     background-color: #404BBF;
 }
-.section-title {
-        color: #2e2f42;
-        font-size: 36px;
-        font-weight: 700;
-        line-height: 40px;
-        letter-spacing: 0.02em;
-       }
 .section-one {
     background-color: #2e2f42;
+}
+.title {
+    color: #ffffff;
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 1.07;
+    letter-spacing: 0.02em;
+    text-align: center;
 }
 .section-two .section-title{
     color: #2e2f42;
@@ -96,21 +90,20 @@ a {
     letter-spacing: 0.02em;
 } 
 .category {
-        font-size: 20px;
-        font-weight: 500;
-        line-height: 24px;
-        letter-spacing: 0.02em;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.02em;
 }
 .section-three {
     background-color: #F4F4FD;
 }
 .section-three .section-title {
     color: #2e2f42;
+    font-size: 36px;
     line-height: 1.11;
     text-transform: capitalize;
-}
-.section-three .image-three {
-    background-color: #FFFFFF;
+    text-align: center;
 }
 .section-three .text-three {
     font-size: 16px;
@@ -119,11 +112,12 @@ a {
     color: #2e2f42;
     line-height: 1.11;
     text-transform: capitalize;
+    text-align: center;
 }
 .closed-part {
     background-color: #2e2f42;
-
-}.logo-studio span{
+}
+.logo-studio{
     color: #f4f4fd;
 }
 .closed-part .text-part {
